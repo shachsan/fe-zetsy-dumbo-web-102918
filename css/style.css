@@ -8,6 +8,8 @@ body {
 	background: #F3EBE9;
 	font-size: 100%;
 	font-family: 'Times New Roman', serif;
+
+
 }
 
 .wrapper {
@@ -15,6 +17,7 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+	overflow: hidden;
 }
 
 /* Write all remaining styles here */
@@ -23,7 +26,12 @@ body {
 	border: 4px solid rgba(204	204	204);
 	float: left;
 	margin: 5px 3px;
-	padding-top: 1px;
+	padding-top: 0px;
+
+}
+
+.press:hover{
+	border: 4px solid rgba(111	127	122);
 }
 
 small{
@@ -33,6 +41,41 @@ small{
 
 #site-name{
 	font-family:"fonts/Baskerville.ttc";
-	font-size: 5em;
+	font-size: 2.5em;
 	color: rgba(153	173	166);
+	margin-top: 0;
+	text-decoration: none;
+}
+
+#site-name:hover{
+	color: rgba(111	127	122);
+}
+
+h2,h3{
+	color: rgba(111	127	122);
+	font-size: 2em;
+}
+
+#home-main-img{
+	border: 4.5px solid rgba(153	173	166);
+
+}
+
+hr{
+	color: rgba(153	173	166);
+	width: 955px;
+}
+
+#featured{
+
+	margin:0 auto;
+}
+
+.learn-more-link{
+	text-decoration: none;
+	color: blue;
+}
+
+a.learn-more-link:hover{
+	text-decoration: underline;
 }
